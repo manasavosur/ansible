@@ -1,0 +1,50 @@
+<!-- Student Object -->
+<Students>
+    <student>
+        <FirstName>Tinku</FirstName>
+        <DOB>1999-01-01</DOB>
+        <Email>abcd@gmail.com</Email>
+        <!-- <Address>104 gandhi apartments hyderabad</Address> -->
+        <!-- <Address>
+            <FlatNumber>104</FlatNumber>
+            <Street>Gandhi Nagar</Street>
+            <City>Hyderabad</City>
+        </Address> -->
+        <Addresses>
+            <PermAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+
+    <student>
+        <FirstName>Lucky</FirstName>
+        <DOB>1999-01-01</DOB>
+        <Email>abcd@gmail.com</Email>
+        <!-- <Address>104 gandhi apartments hyderabad</Address> -->
+        <!-- <Address>
+            <FlatNumber>104</FlatNumber>
+            <Street>Gandhi Nagar</Street>
+            <City>Hyderabad</City>
+        </Address> -->
+        <Addresses>
+            <PermAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+</Students>
