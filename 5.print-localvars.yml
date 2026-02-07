@@ -8,7 +8,7 @@
   tasks:
   - name: print variables
     vars:
-    Hobbies: "Dance,Teaching"
+      Hobbies: "Dance,Teaching"
     ansible.builtin.debug:
       msg: "Name is: {{name}}, Hobbies are: {{Hobbies}}"
 
