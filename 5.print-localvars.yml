@@ -1,0 +1,14 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  become: yes
+  vars:
+    name: "Manasa"
+    Hobbies: "art,music,reading books"
+  tasks:
+  - name: print variables
+    Hobbies: "Dance,Teaching"
+    ansible.builtin.debug:
+      msg: "Name is: {{name}}, Hobbies are: {{Hobbies}}"
+
+
