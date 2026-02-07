@@ -2,10 +2,11 @@
   hosts: local
   connection: local
   become: yes
-  var_files:
+  vars_files:
   - course.yaml
   tasks:
   - name: print variables
-    DURATION: "200HRS"
+    vars:
+      DURATION: "200HRS"
     ansible.builtin.debug:
       msg: "course is: {{COURSE}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}"
