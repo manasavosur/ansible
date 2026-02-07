@@ -1,0 +1,9 @@
+- name: inventory vars using
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: printing vars
+    ansible.builtin.debug:
+      msg: "Trainer is {{TRAINER}}, Course is {{COURSE}}"
+
