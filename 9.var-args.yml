@@ -1,0 +1,8 @@
+- name: variables passing while running command
+  hosts: local
+  connection: local
+  tasks:
+  - name: vars args
+    ansible.builtin.debug:
+      msg: "name is {{NAME}}, Good Morning!! & welcome"
+
