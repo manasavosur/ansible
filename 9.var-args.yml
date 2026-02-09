@@ -4,5 +4,6 @@
   tasks:
   - name: vars args
     ansible.builtin.debug:
-      msg: "name is {{NAME}}, Good Morning!! & welcome"
+      msg: "Hi, My name is {{NAME}}, Good Morning!! "
 
+#run command as " ansible-playbook -i inventory.ini -e NAME=Sunny 9.var-args.yml"
