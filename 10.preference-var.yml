@@ -1,0 +1,26 @@
+- name: variable preference
+  hosts: local
+  connection: local
+  # vars:
+  #   NAME: "Ansible from PLAY VARIABLES"
+  # vars_files:
+  # - course.yaml
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: Please enter NAME
+  #   private: false
+  tasks:
+  - name: print name
+    # vars:
+    #   NAME: "Ansible from TASK VARIABLES"
+    ansible.builtin.debug:
+      msg: "Hi, {{ NAME }}"
+
+
+#preference/priority is like this:
+# 1. Args
+# 2. Task
+# 3. File
+# 4. Prompt
+# 5. Play
+# 6. Inventory
