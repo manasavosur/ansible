@@ -15,3 +15,5 @@
   - name: create user               #if (exit status)rc!=0, then creating user
     ansible.builtin.command: useradd roboshop
     when: user_ouput.rc != 0
+
+#using  this command "ansible.builtin.command:" cannot be idempotent for user creation. check 21 script.  
